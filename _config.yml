@@ -1,0 +1,85 @@
+# Avatar Framer Config
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Avatar Framer
+description: >- # this means to ignore newlines"
+  RACRatnapura Anniversary Celebration
+
+# Copy
+# Fill in your copy for the title and steps here
+# 
+title-text: "Rotaract Club of Rathnapura 5th Anniversary Celebration!"
+step-1: "Upload your picture or another square image below."
+step-2: "Use the photo tools to scale, rotate, and move your image over the preview."
+step-3: "Select your frame."
+step-4: "Download your new profile image!"
+step-5: "Post on social media using the hashtag #racratnapura."
+footer-text: "&copy; 2022 RACRATNAPURA IT"
+
+# Header Nav Link
+#
+nav-link: "http://racratnapura.com"
+nav-link-text: "Home"
+
+# Buttons and upload form
+# 
+upload-text: "Drop files here or click to upload."
+download-button-text: "Download profile picture"
+
+# Logo & Favicon
+# 
+logo: "logo.png"
+favicon: "favicon.ico"
+
+# Footer links
+# 
+footer-links:
+  - text: "Facebook"
+    link: "https://www.facebook.com/ROTARACT.RATHNAPURA/"
+
+  - text: "Instagram"
+    link: "https://www.instagram.com/racrathnapura/?hl=en"
+
+  - text: "Linkedin"
+    link: "https://www.linkedin.com/company/racratnapura"
+
+# Open Graph and Twitter Cards
+#
+og-title: Picture Frame - RACRatnapura Anniversary Celebration
+og-description: RACRatnapura Anniversary Celebration
+og-url: https://frame.racratnapura.com
+og-image: "og-image.png"
+og-image-width: 1280
+og-image-height: 640
+twitter-card: summary_large_image
+twitter-description: RACRatnapura Anniversary Celebration
+twitter-image: "og-image.png"
+twitter-handle: ""
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+# 
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - "*.config.js"
+  - "*.config.json"
+  - "package*.json"
+  - README.md
+  - docs
